@@ -1,10 +1,10 @@
 {
-  "name": "CLEAN-NODE-API",
+  "name": "clean-node-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests",
+    "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests",
     "postinstall": "husky install"
   },
