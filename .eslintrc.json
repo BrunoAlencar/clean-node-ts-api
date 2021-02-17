@@ -4,6 +4,6 @@
     "project": "./tsconfig.json"
   },
   "rules": {
-    "strict-boolean-expressions": false
+    "strict-boolean-expressions": false,
   }
 }
