@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "lint-staged": "lint-staged --config .lintstagedrc.json"
   },
   "keywords": [],
   "author": "",
